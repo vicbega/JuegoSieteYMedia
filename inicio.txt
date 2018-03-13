@@ -1,0 +1,21 @@
+Lo primero que deberemos hacer es clonar el proyecto en nuestra maquina, para esto desde la consola de git en windows o la consola linux o Mac vamos a la carpeta donde queremos alojar el repositorio (Carpeta del proyecto), una vez aquí usaremos git para clonar nuestro repositorio usando un comando como este:
+
+$ git clone https://github.com/vicbega/JuegoSieteYMedia.git
+
+Podemos crear cualquier archivo o incluso folder dentro de nuestro repositorio con nuestro editor o IDE favorito, después de trabajar sobre nuestro proyecto, agregar características o modificar código  lo que deberemos hacer para enviar los cambios al repositorio remoto es lo siguiente:
+
+$ git add WebContent
+# Agregamos cada archivo que queramos enviar al repositorio remoto
+ 
+$ git commit -m "added WebContent"
+# Hacemos un commit, lo cual registra los cambios realizados en el proyecto
+ 
+$ git push
+# Enviamos los cambios desde nuestro repositorio local hacia el remoto
+
+LISTO, nuestros cambios ya están en nuestro repositorio en linea, podemos comprobar esto navegando por nuestro repositorio desde la pagina de github.
+
+para sincronizar cambios realizados a nuestra copia del proyecto local usaremos el siguiente comando:
+
+$ git pull
+# Con esto bajaremos los últimos cambios a nuestro repositorio local
